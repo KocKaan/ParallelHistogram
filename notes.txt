@@ -1,0 +1,11 @@
+Two inputs: number of bins and filename that contains the floating point numbers
+-> Command line with mpiexec will specify the number of process.
+
+mpiexec -n x ./histogram b filename
+
+Where:
+b: is the number of bins, 0 < b <= 50
+x: number of processes, 0 < t <= 50
+filename: the name of the text file that contains the floating point numbers
+
+You program must print on screen, the bins and their counts, as shown in the example above.

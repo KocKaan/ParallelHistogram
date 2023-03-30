@@ -3,6 +3,9 @@ Two inputs: number of bins and filename that contains the floating point numbers
 
 mpiexec -n x ./histogram b filename
 
+For example, the following command will run the MPI program a.out on 4 processes:
+    mpiexec -n 4 a.out
+
 Where:
 b: is the number of bins, 0 < b <= 50
 x: number of processes, 0 < t <= 50
